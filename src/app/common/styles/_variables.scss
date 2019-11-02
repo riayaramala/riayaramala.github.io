@@ -1,0 +1,16 @@
+// create a color map
+$colors-map: (
+    light-blue:#546E7A,
+    light-green: green,
+    pure-white: white
+);
+
+// create a function to return the color based on the passed in color name
+@function color($color-name) {
+  @if(map-has-key($colors-map, $color-name)){
+      @return map-get($colors-map, $color-name)
+  }
+
+  @warn "Unknown color name #{$color-name}";
+  @return null;
+}

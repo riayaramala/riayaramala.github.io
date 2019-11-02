@@ -1,0 +1,14 @@
+<mat-card class="project-card">
+  <mat-card-header>
+    <div mat-card-avatar
+    [style.background-size]= "'cover'"
+    [style.background-image]="backGroundImg"></div>
+    <mat-card-title>{{project?.clientName}}</mat-card-title>
+    <mat-card-subtitle>{{project?.duration}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{project?.description}}
+    </p>
+  </mat-card-content>
+</mat-card>

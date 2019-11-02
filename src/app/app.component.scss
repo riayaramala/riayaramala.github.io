@@ -1,0 +1,21 @@
+@import './common/styles/fonts.scss';
+@import './common/styles/mixins';
+@import '~@angular/material/theming';
+.app{
+    $config: mat-typography-config(#{"'Poiret One', cursive;"});
+    font-size: mat-font-size($config, headline);
+    font-family: mat-font-family($config);
+    .container{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    @include fade-in();
+    z-index: 1;
+    
+    canvas{
+        position: absolute;
+        z-index: -1;
+    }
+    overflow-x: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,61 @@
+h1 { font-size: 24px;}
+h2 { font-size: 22px;}
+h3 { font-size: 18px;}
+h4 { font-size: 16px;}
+h5 { font-size: 12px;}
+h6 { font-size: 10px;}
+
+
+
+/**
+ * Font Face Variables to be utilizes throughout the application
+ */
+@font-face {
+  font-family: "Avant Garde Regular";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("src/assets/fonts/avantgarde-medium-opentype.otf") format("opentype"),
+    url("src/assets/fonts/avantgarde-demi.eot?#iefix") format("embedded-opentype"),
+    url("src/assets/fonts/avantgarde.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "Avant Garde Bold";
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url("src/assets/fonts/avantgarde-medium-opentype.otf") format("opentype"),
+    url("src/assets/fonts/avantgarde-demi.eot?#iefix") format("embedded-opentype"),
+    url("src/assets/fonts/avantgarde.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "Avant Garde Italic";
+  font-style: italic;
+  font-weight: normal;
+  src:
+    url("src/assets/fonts/avantgarde-medium-opentype.otf") format("opentype"),
+    url("src/assets/fonts/avantgarde-demi.eot?#iefix") format("embedded-opentype"),
+    url("src/assets/fonts/avantgarde.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "Avant Garde Demi";
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url("src/assets/fonts/avantgarde-medium-opentype.otf") format("opentype"),
+    url("src/assets/fonts/avantgarde-demi.eot?#iefix") format("embedded-opentype"),
+    url("src/assets/fonts/avantgarde-demi.ttf") format("truetype");
+}
+
+$ff-avant-garde-regular: "Avant Garde Regular", Helvetica, Arial, sans-serif;
+$ff-avant-garde-bold: "Avant Garde Bold", Helvetica, Arial, sans-serif;
+$ff-avant-garde-italic: "Avant Garde Italic", Helvetica, Arial, sans-serif;
+$ff-avant-garde-demi: "Avant Garde Demi", Helvetica, Arial, sans-serif;
+$ff-arial:"Arial";
+
+.strong {
+  font-weight: bold;
+}

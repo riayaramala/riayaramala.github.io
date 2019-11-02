@@ -1,0 +1,5 @@
+@import '../../common/styles/mixins';
+
+.education-card {
+    @include base-elevation();
+}

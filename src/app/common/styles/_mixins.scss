@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+
+@mixin base-elevation {
+    @include mat-elevation-transition;
+    @include mat-elevation(2);
+    &:hover {
+        @include mat-elevation(10);
+    }
+}
+
+@mixin fade-in($direction: null, $duration: 2s) {
+    @if $direction != null {
+        animation-name: #{"fadeIn#{$direction}"};
+    } @else {
+        animation-name: #{"fadeIn"};
+    }
+    animation-duration: $duration;
+}
+
