@@ -1,33 +1,9 @@
 <div class="app">
   <header></header>
   <canvas #canvas></canvas>
-  <div class="row">
-    <div class="container">
-      <!-- About me / something better -->
-      <heading [heading]="'About Me'"></heading>
-      <about-me></about-me>
-      <br>
-
-      <!-- Projects -->
-      <heading [heading]="'Projects'"></heading>
-      <div *ngFor="let project of projects">
-        <project-card [project]="project"></project-card>
-        <br>
-      </div>
-
-      <!-- Education details -->
-      <heading [heading]="'Education'"></heading>
-      <div *ngFor="let education of educationDetails">
-        <education [education]="education"></education>
-        <br>
-      </div>
-
-      <!-- Skill set -->
-      <heading [heading]="'Skills'"></heading>
-      <skill-set [skills]="skills"></skill-set>
-      <br>
-
-      <!-- Download resume -->
-    </div>
+  <div class="iframe-container">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSecweI5B6N1FBYVasIJRoh577Jj0NglPKqHd8iXvgbyKvYbWw/viewform?embedded=true"
+      allowfullscreen></iframe>
   </div>
 </div>

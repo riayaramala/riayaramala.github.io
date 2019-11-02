@@ -14,13 +14,7 @@ export class HeaderComponent {
   }
 
   ngAfterViewInit() {
-    this.safeStyle = this.domSanitizer.bypassSecurityTrustStyle(`--bgc: url('../../../dist/assets/coder-image.png')`);
+    this.safeStyle = this.domSanitizer.bypassSecurityTrustStyle(`--bgc: url('../../../dist/assets/konda_sai.jpeg')`);
   }
 
-  routeTo(platform: string) {
-    const openInNewTab = (url: string) => window.open(url, platform);
-    platform === 'linkedIn'
-      ? openInNewTab("https://www.linkedin.com/in/konda-reddy-y-50ba71157/")
-      : openInNewTab("https://github.com/kondareddyyaramala");
-  }
 }
