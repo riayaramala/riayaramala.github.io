@@ -8,7 +8,7 @@
     padding-right: 20%;;
     margin-bottom: 10px;
 
-    @media screen and (max-width: 1025px) {
+    @media screen and (max-width: 1023px) {
         height: 48vh;
       }
 
@@ -49,7 +49,7 @@
         opacity: 0.9;
         // animation:  animate-image 25s ease-in-out 1;
 
-        @media screen and (max-width: 1025px) {
+        @media screen and (max-width: 750px) {
             background-size: contain;
           }
 
