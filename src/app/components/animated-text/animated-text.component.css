@@ -1,0 +1,187 @@
+h1{
+  position: absolute;
+  left: 20%;
+}
+  
+  h1 span {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .ud_1 {
+    left: 0;
+  }
+  .ud_2 {
+    left: 156px;
+  }
+  .ud_3 {
+    left: 215px;
+  }
+  .ud_4 {
+    left: 280px;
+  }
+  .ud_5 {
+    left: 400px;
+  }
+  .ud_6 {
+    left: 430px;
+  }
+  .ud_7 {
+    left: 525px;
+  }
+  .ud_8 {
+    left: 580px;
+  }
+
+  
+  .ud_1 {
+    animation: bounce1 3s ease-in-out infinite running;
+  }
+  .ud_2 {
+    animation: bounce2 3s ease-in-out infinite running;
+  }
+  .ud_3 {
+    animation: bounce3 3s ease-in-out infinite running;
+  }
+  .ud_4 {
+    animation: bounce4 3s ease-in-out infinite running;
+  }
+  .ud_5 {
+    animation: bounce5 3s ease-in-out infinite running;
+  }
+  .ud_6 {
+    animation: bounce6 3s ease-in-out infinite running;
+  }
+  .ud_7 {
+    animation: bounce7 3s ease-in-out infinite running;
+  }
+  .ud_8 {
+    animation: bounce8 3s ease-in-out infinite running;
+  }
+  .ud_9 {
+    animation: bounce9 3s ease-in-out infinite running;
+  }
+  .ud_10 {
+    animation: bounce10 3s ease-in-out infinite running;
+  }
+  
+  @keyframes bounce1 {
+    0% {
+      bottom: 0;
+    }
+    5% {
+      bottom: 15px;
+    }
+    10% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce2 {
+    5% {
+      bottom: 0;
+    }
+    10% {
+      bottom: 15px;
+    }
+    15% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce3 {
+    10% {
+      bottom: 0;
+    }
+    15% {
+      bottom: 15px;
+    }
+    20% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce4 {
+    15% {
+      bottom: 0;
+    }
+    20% {
+      bottom: 15px;
+    }
+    25% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce5 {
+    20% {
+      bottom: 0;
+    }
+    25% {
+      bottom: 15px;
+    }
+    30% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce6 {
+    25% {
+      bottom: 0;
+    }
+    30% {
+      bottom: 15px;
+    }
+    35% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce7 {
+    30% {
+      bottom: 0;
+    }
+    35% {
+      bottom: 15px;
+    }
+    40% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce8 {
+    35% {
+      bottom: 0;
+    }
+    40% {
+      bottom: 15px;
+    }
+    45% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce9 {
+    40% {
+      bottom: 0;
+    }
+    45% {
+      bottom: 15px;
+    }
+    50% {
+      bottom: 0;
+    }
+  }
+  
+  @keyframes bounce10 {
+    45% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 15px;
+    }
+    55% {
+      bottom: 0;
+    }
+  }
+  

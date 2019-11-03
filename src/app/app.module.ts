@@ -6,11 +6,13 @@ import { MaterialModule } from './material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { AnimatedTextComponent } from './components/animated-text/animated-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    AnimatedTextComponent
   ],
   imports: [
     BrowserModule,
