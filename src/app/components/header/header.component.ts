@@ -14,7 +14,7 @@ export class HeaderComponent {
   }
 
   ngAfterViewInit() {
-    this.safeStyle = this.domSanitizer.bypassSecurityTrustStyle(`--bgc: url('../../../assets/fall_colors.jpg')`);
+    this.safeStyle = this.domSanitizer.bypassSecurityTrustStyle(`--bgc: url('../../../dist/assets/fall_colors.jpg')`);
   }
 
 }
