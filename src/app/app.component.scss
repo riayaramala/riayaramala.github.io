@@ -20,10 +20,10 @@
     overflow-y: auto;
 
     .iframe-container {
-        overflow: hidden;
         // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
         padding-top: 56.25%;
         position: relative;
+        height: 1150px !important;
         iframe {
             border: 0;
             height: 100%;
