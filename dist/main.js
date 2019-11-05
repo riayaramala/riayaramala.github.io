@@ -380,10 +380,8 @@ __webpack_require__.r(__webpack_exports__);
 var HeaderComponent = /** @class */ (function () {
     function HeaderComponent(domSanitizer) {
         this.domSanitizer = domSanitizer;
-    }
-    HeaderComponent.prototype.ngAfterViewInit = function () {
         this.safeStyle = this.domSanitizer.bypassSecurityTrustStyle("--bgc: url('../../../dist/assets/fall_colors.jpg')");
-    };
+    }
     HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'header',

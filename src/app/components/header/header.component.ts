@@ -10,10 +10,6 @@ export class HeaderComponent {
   public safeStyle: SafeStyle;
 
   constructor(private domSanitizer: DomSanitizer){
-
-  }
-
-  ngAfterViewInit() {
     this.safeStyle = this.domSanitizer.bypassSecurityTrustStyle(`--bgc: url('../../../dist/assets/fall_colors.jpg')`);
   }
 
